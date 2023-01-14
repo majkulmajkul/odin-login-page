@@ -24,7 +24,7 @@ input{
 
 input:focus{
     outline: 1px solid blue;
-    box-shadow: var(--shadow)
+    box-shadow:  var(--shadow)
 }
 
 button{
@@ -132,4 +132,24 @@ width: 70%;
     visibility: hidden;
     
     
+}
+
+.submit-button{
+    background-color: #212529;
+    color: #dee2e6;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow:  var(--shadow);
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    color: #212529;
+    background-color: #dee2e6;
+}
+
+.already-have-an-account{
+    font-size: 0.8rem;
 }
