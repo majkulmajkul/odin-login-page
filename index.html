@@ -43,19 +43,26 @@
           <form action="" class="sign-up-form">
             <div class="form-first-column">
               <label for="first-name">FIRST NAME</label>
-              <input type="text" id="first-name" required />
+              <input type="text" id="first-name" minlength="2" required />
               <label for="email">EMAIL</label>
               <input type="email" id="email" required />
-              <label for="password-one">PASSWORD</label>
-              <input type="password" id="password-one" required />
+              <div>
+                <label for="password-one">PASSWORD</label>
+                <input
+                  type="password"
+                  id="password-one"
+                  minlength="8"
+                  required
+                />
+              </div>
             </div>
             <div class="form-second-column">
               <label for="last-name">LAST NAME</label>
-              <input type="text" id="last-name" required />
+              <input type="text" id="last-name" required minlength="2" />
               <label for="phone-number">PHONE NUMBER</label>
               <input type="number" id="phone-number" />
               <label for="password-two">CONFIRM PASSWORD</label>
-              <input type="password" id="password-two" required />
+              <input type="password" id="password-two" required minlength="8" />
             </div>
           </form>
         </div>
