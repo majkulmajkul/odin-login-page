@@ -127,6 +127,10 @@ width: 70%;
 }
 
 .password-warning{
-    position: absolute;
-    bottom: 0;
+    margin-top: -2rem;
+    font-size: 0.5rem;
+    color: red;
+    visibility: hidden;
+    
+    
 }
