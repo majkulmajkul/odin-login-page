@@ -70,21 +70,23 @@ width: 70%;
 }
 
 .odin-logo{
-    width: 50px;
+    width: 75px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 
 }
 .odin-text{
     font-size: 4rem;
     color: white;
+    font-family: 'Uncial Antiqua', cursive;
 }
 
 .odin-logo-background{
     margin-top: 7rem;
     background-color: rgb(0,0,0, 0.5);
     align-self: stretch;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
